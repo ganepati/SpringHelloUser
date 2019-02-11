@@ -16,6 +16,7 @@ public class Client {
 		// at load time object not created.
 		System.out.println("------------------------");
 		ApplicationContext ap = new ClassPathXmlApplicationContext("resource/Spring.xml");
+		System.out.println("Hi");
 
 	}
 }
